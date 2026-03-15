@@ -20,10 +20,11 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('startStopReset');
   });
 
-  it('should render the counter basic component', () => {
+  it('should render the product and cart components', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('app-counter-basic')).toBeTruthy();
+    expect(compiled.querySelector('app-product')).toBeTruthy();
+    expect(compiled.querySelector('app-cart')).toBeTruthy();
   });
 });

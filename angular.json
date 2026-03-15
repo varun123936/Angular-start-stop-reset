@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/start-stop-reset1",
+            "outputPath": "dist/start-stop-reset",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [

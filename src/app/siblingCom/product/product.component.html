@@ -1,0 +1,14 @@
+<p-card [header]="product.title">
+  <img [src]="product.image" width="200">
+
+  <p>{{product.description}}</p>
+
+  <h3>INR {{product.price}}</h3>
+
+  <button
+    pButton
+    label="Add To Cart"
+    icon="pi pi-shopping-cart"
+    (click)="addToCart()"
+  ></button>
+</p-card>
